@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="bg">
+
+<head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-17006101359"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'AW-17006101359');
+</script>
+<!-- Event snippet for pixel conversion page
+In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button. -->
+<script>
+function gtag_report_conversion(url) {
+  var callback = function () {
+    if (typeof(url) != 'undefined') {
+      window.location = url;
+    }
+  };
+  gtag('event', 'conversion', {
+      'send_to': 'AW-17006101359/HvclCIKg978aEO-Gkq0_',
+      'event_callback': callback
+  });
+  return false;
+}
+</script>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta name="theme-color" content="#ffd7ef">
+  <meta name="description" content="Печелете пари, гледайки видеоклипове в Telegram. Прост и пасивен доход за всеки.">
+  <title>MOBIHUB lite - Печелене на пари чрез гледане на видео</title>
+  <link rel="stylesheet" href="styles.css">
+
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+
+      function getCid(name) {
+        const value = `; ${document.cookie}`;
+        const parts = value.split(`; ${name}=`);
+        if (parts.length === 2) {
+          const fullCookieValue = parts.pop().split(';').shift();
+          const cidValue = fullCookieValue.split('.')[2] + '.' + fullCookieValue.split('.')[3];
+          return cidValue;
+        }
+        return null;
+      }
+
+      const cid = getCid('_ga');
+
+      // Получаем все кнопки с атрибут onclick
+      var buttons = document.querySelectorAll('[onclick^="return gtag_report_conversion"]');
+
+      // Перебираем каждую кнопку
+      buttons.forEach(function (button) {
+        // Получаем текущее значение атрибута onclick
+        var currentOnClick = button.getAttribute('onclick');
+
+        // Извлекаем параметры из текущей ссылки
+        var urlParams = new URLSearchParams(window.location.search);
+        var keywordParam = urlParams.get('utm_term');
+        var gclidParam = urlParams.get('gclid');
+
+        // Формируем новую ссылку с параметрами
+        var newOnClick = "return gtag_report_conversion('https://militating-mooring.site/GXPT5LTx?" + "utm_term=" + keywordParam + "&gclid=" + gclidParam + "&cid=" + cid + "')";
+
+        // Заменяем текущее значение атрибута onclick новым
+        button.setAttribute('onclick', newOnClick);
+      });
+    });
+  </script>
+
+</head>
+
+<body>
+
+  <!---->
+  <header>
+    <div class="new-logo">MOBIHUB lite</div>
+  </header>
+  <main>
+    <!-- Großer Bildabschnitt -->
+    <div class="new-big-image">
+      <div class="new-big-image-text">
+        <h1>Прост и пасивен доход</h1>
+        <h2>Гледайте видеоклипове и печелете добри пари.</h2>
+        <button class="new-button" onclick="return gtag_report_conversion('https://militating-mooring.site/GXPT5LTx')">👉 ЗАПОЧНЕТЕ СЕГА 👈</button>
+
+
+      </div>
+    </div>
+    <!-- Главные разделы -->
+    <h2>Плащаме 1 евро за гледане на видеоклип</h2>
+    <h3>Присъединете се към Telegram и започнете да печелите още днес!</h3>
+    <!-- Первый раздел -->
+    <div class="new-section">
+      <div>
+        <img src="images/1.jpg">
+        <p>Ние сме независима агенция, която оценява качеството на видео съдържанието.</p>
+      </div>
+      <div>
+        <img src="images/2.jpg">
+        <p>Заедно със социалната мрежа TikTok и приложението Telegram стартирахме партньорска програма. Нуждаем се от независими експерти, един от които можете да бъдете и вие.</p>
+      </div>
+      <div>
+        <img src="images/3.jpg">
+        <p>Нашата партньорска програма е насочена към независима оценка на качеството на видео съдържанието в социалната мрежа TikTok чрез приложението Telegram. Плащаме 10 евро за гледане на видеоклип!</p>
+      </div>
+      <button class="new-button" onclick="return gtag_report_conversion('https://militating-mooring.site/GXPT5LTx')">👉 ЗАПОЧНЕТЕ СЕГА 👈</button>
+    </div>
+
+    <!-- Второй раздел -->
+    <h2>Нашето предложение</h2>
+    <div class="new-section_2">
+      <div>
+        <p><span class="new-span_bold">Гъвкав график на работа</span> – Работете където и когато ви е удобно.</p>
+      </div>
+      <div>
+        <p><span class="new-span_bold">Няма ограничения за печалбата</span> – Вашият доход зависи само от вас и вашето желание.</p>
+      </div>
+      <div>
+        <p><span class="new-span_bold">Ежедневни плащания</span> – Получавайте дохода си по удобен начин.</p>
+      </div>
+      <div>
+        <p><span class="new-span_bold">Вашето образование и професионален опит</span> не са от значение за нас.</p>
+      </div>
+    </div>
+
+    <h2>Какво трябва да правя?</h2>
+    <div class="new-section">
+      <div>
+        <img src="images/4.jpeg">
+        <p class="new-span_bold">Да гледам видеоклипове</p>
+      </div>
+      <div>
+        <img src="images/5.jpeg">
+        <p class="new-span_bold">Да оценявам, да поставям харесвания или нехаресвания на видеоклиповете.</p>
+      </div>
+      <div>
+        <img src="images/6.jpeg">
+        <p class="new-span_bold">И за това да получавам реални пари.</p>
+      </div>
+    </div>
+
+    <div style="margin: 30px;">
+      <!-- Как присоединиться к программе раздел -->
+      <h2>Как да се присъединя към нашата партньорска програма</h2>
+      <p>Много е лесно да печелите пари с нашата програма. <span class="new-span_bold">Трябва да бъдете на възраст над 18 години, да имате смартфон с инсталирано приложение Telegram и достъп до интернет.</span> Ако все още нямате приложението Telegram, можете да го изтеглите от <a class="new-link1"
+          href="https://apps.apple.com/ru/app/telegram-messenger/id686449807">App Store</a> или <a class="new-link1"
+          href="https://play.google.com/store/apps/details?id=org.telegram.messenger&hl=ro&gl=RO">Google Play
+          Market</a>.</p>
+    </div>
+
+    <!-- Дополнительные шаги раздел -->
+    <div style="margin: 5px; border-radius: 25px; padding: 5px; background-color: #ffd7ef;">
+      <div>
+        <span>1️⃣</span>
+        <p class="new-span_bold">Посетете нашия Telegram канал</p>
+      </div>
+      <div>
+        <span>2️⃣</span>
+        <p><span class="new-span_bold">Активирайте своя личен акаунт.</span> За да активирате личния си акаунт, натиснете бутона <span class="new-span_bold">START</span> в нашия Telegram канал.</p>
+      </div>
+      <div>
+        <span>3️⃣</span>
+        <p><span class="new-span_bold">Печелете пари, гледайки и оценявайки видеоклипове.</span> Ще ви бъдат предоставени видеоклипове за оценка. Гледайте видеоклиповете, оценявайте ги и печелете реални пари.</p>
+      </div>
+    </div>
+
+
+    <!-- Раздел Отзывы -->
+    <h2>Отзиви от нашите партньори</h2>
+    <div class="new-section">
+      <div class="new-otziv">
+        <img src="images/7.png">
+        <p class="new-name">Михаел</p>
+        <p>Партньорската програма е просто магическа! Печеля пари, докато съм в любимия си месинджър и гледам видеоклипове в TikTok. Това е просто невероятно!</p>
+      </div>
+      <div class="new-otziv">
+        <img src="images/8.png">
+        <p class="new-name">Ема</p>
+        <p>Отличен начин да печелите, гледайки TikTok видеоклипове в Telegram. Удобно, бързо и, най-важното, печелившо. Препоръчвам!</p>
+      </div>
+      <div class="new-otziv">
+        <img src="images/9.png">
+        <p class="new-name">София</p>
+        <p>Партньорската програма за печелене в Telegram е моето ново откритие! Просто влезте в канала, гледайте видеоклипове и парите се превеждат в сметката ви. Отлично!</p>
+      </div>
+      <div class="new-otziv">
+        <img src="images/10.png">
+        <p class="new-name">Волфганг</p>
+        <p>Сега моят Telegram стана още по-интересен благодарение на тази партньорска програма. Печеля, гледайки TikTok видеоклипове. Това е просто фантастично!</p>
+      </div>
+      <div class="new-otziv">
+        <img src="images/11.png">
+        <p class="new-name">Стивън</p>
+        <p>Благодарение на партньорската програма сега печеля от хобито си. Просто седя в Telegram, гледам видеоклипове и получавам пари за това. Чудесно!</p>
+      </div>
+      <div class="new-otziv">
+        <img src="images/12.png">
+        <p class="new-name">Матиас</p>
+        <p>Най-накрая намерих идеалния начин да печеля пари от любимите си видеоклипове в TikTok и Telegram. Удобно, бързо и печелившо!</p>
+      </div>
+    </div>
+
+    <!-- Блоки раздела -->
+    <div class="new-block">
+      <div class="new-title">Какво е необходимо за участие в партньорската програма?</div>
+      <div class="new-description">Трябва да бъдете на възраст над 18 години, да имате смартфон с инсталирано приложение Telegram и достъп до интернет.</div>
+    </div>
+    <div class="new-block">
+      <div class="new-title">Как да се регистрирам в партньорската програма?</div>
+      <div class="new-description">Просто отидете в нашия Telegram канал и натиснете бутона START в нашия канал.</div>
+    </div>
+    <div class="new-block">
+      <div class="new-title">Как да активирам акаунта си?</div>
+      <div class="new-description">За да активирате акаунта си, трябва да натиснете бутона START в нашия Telegram канал.</div>
+    </div>
+    <div class="new-block">
+      <div class="new-title">Какво е специалното в сътрудничеството с вашата партньорска програма?</div>
+      <div class="new-description">Сътрудничеството с нашата партньорска програма е много просто. Вие гледате видеоклипове от TikTok, оценявате ги и получавате пари за това.</div>
+    </div>
+    <div class="new-block">
+      <div class="new-title">Колко често се извършват плащанията?</div>
+      <div class="new-description">Плащанията се извършват при достигане на минимална сума за изплащане.</div>
+    </div>
+
+    <div class="new-big-image_2">
+      <div class="new-big-image-text">
+        <h1>Печелете лесно и пасивно</h1>
+        <h2>Гледайте кратки видеоклипове и печелете добри пари.</h2>
+        <button class="new-button" onclick="return gtag_report_conversion('https://militating-mooring.site/GXPT5LTx')">👉 ЗАПОЧНЕТЕ СЕГА 👈</button>
+      </div>
+    </div>
+
+  </main>
+  <footer>
+    <a href="policy.html">Политика за поверителност</a>
+    <a href="disclaimer.html">Отказ от отговорност</a>
+  </footer>
+  
+  <script src="script.js"></script>
+  
+  <!-- Cookie Consent Popup -->
+  <div id="cookie-popup" class="cookie-popup">
+    <div class="cookie-popup-content">
+      <h3>Използваме бисквитки</h3>
+      <p>Използваме бисквитки, за да подобрим вашето изживяване на сайта, да предоставим персонализирано съдържание и да анализираме нашия трафик. Като натиснете "Приемам всички", вие се съгласявате с използването на всички бисквитки.</p>
+      <div class="cookie-links">
+        <a href="policy.html" class="cookie-link">Политика за поверителност</a>
+        <a href="disclaimer.html" class="cookie-link">Отказ от отговорност</a>
+      </div>
+      <div class="cookie-buttons">
+        <button id="cookie-accept" class="cookie-button accept">Приемам всички</button>
+        <button id="cookie-decline" class="cookie-button decline">Само необходимите</button>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
